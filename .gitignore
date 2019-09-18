@@ -1,0 +1,11 @@
+*~
+.\#*
+\#*\#
+*.pyc
+env/
+venv/
+.dir-locals.el
+config.sh
+publication-ids.txt
+publications_cache/
+authors_cache/

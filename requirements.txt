@@ -1,0 +1,4 @@
+Flask-SQLAlchemy==2.1
+lxml==2.3.5
+MySQL-python
+SQLAlchemy==1.0.11

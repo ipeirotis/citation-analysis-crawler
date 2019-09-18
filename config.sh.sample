@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Whether the crawler will initially crawl publications or authors.
+# Allowed values: AUTHOR, PUBLICATION
+export CRAWLING_MODE=PUBLICATION
+
+# The interval (in seconds) between subsequent queries.
+export QUERY_INTERVAL=60
+
+# The base URL of the supervisor that the crawler reports to.
+export SUPERVISOR_BASE_URL=http://localhost:4242
+
+# The database URL.
+# Format: dialect+driver://username:password@host:port/database
+export SQL_URL='mysql+mysqldb://user:password@localhost/citation_analysis_db'

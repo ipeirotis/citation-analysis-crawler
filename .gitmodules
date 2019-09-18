@@ -1,0 +1,3 @@
+[submodule "models"]
+	path = models
+	url = git@git.github.com:ipeirotis/citation-analysis-models
